@@ -1,0 +1,51 @@
+# NexusFlow Customer Success Digital FTE - Namespace
+# ====================================================
+# Kubernetes namespace for all Digital FTE resources
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: digital-fte
+  labels:
+    name: digital-fte
+    environment: production
+
+---
+# Resource Quota for the namespace
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: digital-fte-quota
+  namespace: digital-fte
+spec:
+  hard:
+    requests.cpu: "10"
+    requests.memory: "20Gi"
+    limits.cpu: "20"
+    limits.memory: "40Gi"
+    persistentvolumeclaims: "5"
+    pods: "20"
+    services: "10"
+
+---
+# Limit Range for default container resources
+apiVersion: v1
+kind: LimitRange
+metadata:
+  name: digital-fte-limits
+  namespace: digital-fte
+spec:
+  limits:
+    - type: Container
+      default:
+        cpu: "500m"
+        memory: "512Mi"
+      defaultRequest:
+        cpu: "100m"
+        memory: "128Mi"
+      max:
+        cpu: "4000m"
+        memory: "8Gi"
+      min:
+        cpu: "50m"
+        memory: "64Mi"

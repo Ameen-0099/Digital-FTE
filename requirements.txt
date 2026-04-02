@@ -1,0 +1,31 @@
+# =============================================================================
+# Minimal Working Requirements (Fixed for runtime)
+# =============================================================================
+openai>=2.26.0,<3.0
+openai-agents==0.13.2
+
+fastapi==0.115.0
+uvicorn>=0.31.1
+pydantic>=2.12.2,<3.0
+email-validator>=2.0.0
+
+# Database
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# SQLAlchemy for database connection
+sqlalchemy>=2.0.0
+sqlalchemy[asyncio]>=2.0.0
+
+# Kafka
+aiokafka==0.11.0
+
+# Google (Gmail) - Required for gmail_handler.py
+google-api-python-client>=2.115.0
+google-auth-httplib2>=0.2.0
+google-auth-oauthlib>=1.2.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx>=0.27.1
+twilio==8.11.1

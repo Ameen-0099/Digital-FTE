@@ -1,0 +1,498 @@
+{
+  "last_updated": "2026-03-27T22:30:07.103750",
+  "conversation_count": 4,
+  "conversations": [
+    {
+      "customer_id": "alice@techcorp.com",
+      "customer_name": "Alice Johnson",
+      "customer_email": "alice@techcorp.com",
+      "customer_phone": null,
+      "company": "TechCorp Inc.",
+      "plan": "Professional",
+      "conversation_id": "CONV-20260327-alice@te",
+      "status": "escalated",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "2dbc8cd2-ca11-437a-986e-3f5a9998064d",
+          "timestamp": "2026-03-27T22:30:06.977091",
+          "direction": "inbound",
+          "content": "Hi, I'm having trouble exporting my Gantt chart to PDF. It just shows a loading spinner and nothing happens. I have an executive presentation tomorrow and really need this working!",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        },
+        {
+          "message_id": "5091670c-db09-4f5b-9eb7-d27e8e558382",
+          "timestamp": "2026-03-27T22:30:06.977091",
+          "direction": "outbound",
+          "content": "Hi Alice,\n\nDon't worry - I'm here to help!\n\nI'm escalating this to our specialist team. They will reach out within 2 hours.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        },
+        {
+          "message_id": "fc112ec0-91ca-4846-aa81-93fd1e639d4e",
+          "timestamp": "2026-03-27T22:30:06.989090",
+          "direction": "inbound",
+          "content": "I tried clearing my browser cache and using Chrome like you suggested, but the export is still hanging. Is there another way to export or can you help troubleshoot further?",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export",
+            "feature_request"
+          ]
+        },
+        {
+          "message_id": "6e0818c3-d8d1-42d2-bc5e-df79d155f5d3",
+          "timestamp": "2026-03-27T22:30:06.989090",
+          "direction": "outbound",
+          "content": "Hi Alice,\n\nDon't worry - I'm here to help!\n\nI'm escalating this to our specialist team. They will reach out within 2 hours.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export",
+            "feature_request"
+          ]
+        },
+        {
+          "message_id": "22fc2683-f5d7-42b6-aa02-1637273c77a3",
+          "timestamp": "2026-03-27T22:30:07.000089",
+          "direction": "inbound",
+          "content": "Update: I tried reducing the number of visible tasks with filters and it worked! The PDF exported successfully. Thank you so much for the help! This is a lifesaver.",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export"
+          ]
+        },
+        {
+          "message_id": "b43a0d7a-5a88-4e44-b0d2-3c73b6657a2d",
+          "timestamp": "2026-03-27T22:30:07.000089",
+          "direction": "outbound",
+          "content": "Hi Alice,\n\nAs we discussed earlier about export, mobile, performance, \n\nDon't worry - I'm here to help!\n\nI'm escalating this to our specialist team. They will reach out within 2 hours.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "export"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "export",
+        "mobile",
+        "performance",
+        "feature_request"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T22:30:06.977091",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:06.977091",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:06.989090",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:06.989090",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.000089",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.000089",
+          "score": -0.9,
+          "label": "panicked"
+        }
+      ],
+      "current_sentiment": "panicked",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T22:30:06.974092",
+      "updated_at": "2026-03-27T22:30:07.000089",
+      "last_interaction": "2026-03-27T22:30:07.000089",
+      "message_count": 6,
+      "resolution_notes": "Customer is panicked"
+    },
+    {
+      "customer_id": "bob@startup.io",
+      "customer_name": "Bob Martinez",
+      "customer_email": "bob@startup.io",
+      "customer_phone": null,
+      "company": "StartupIO",
+      "plan": "Starter",
+      "conversation_id": "CONV-20260327-bob@star",
+      "status": "in_progress",
+      "original_channel": "web_form",
+      "current_channel": "whatsapp",
+      "channel_switches": [
+        {
+          "from_channel": "web_form",
+          "to_channel": "whatsapp",
+          "timestamp": "2026-03-27T22:30:07.024745",
+          "message_count_before_switch": 2
+        }
+      ],
+      "messages": [
+        {
+          "message_id": "82b5b88e-0318-4a1b-bcbf-f4bd9743a783",
+          "timestamp": "2026-03-27T22:30:07.016747",
+          "direction": "inbound",
+          "content": "Hello! I'm trying to set up recurring tasks for our weekly team standup meetings. How do I configure the repeat schedule? I need it to happen every Monday at 9 AM.",
+          "channel": "web_form",
+          "sentiment": "neutral",
+          "topics": [
+            "mobile",
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "e82a1b6f-41e8-4718-932a-1990104438ca",
+          "timestamp": "2026-03-27T22:30:07.016747",
+          "direction": "outbound",
+          "content": "Hello Bob,\n\nThank you for your inquiry.\n\nRegarding how to:\n\nTo create a recurring task: 1. Open the task (or create a new one). 2. Click the 'Repeat' option in the task details. 3. Choose frequency: Daily, Weekly, Bi-weekly, Monthly, Yearly. 4. Select the day(s) of week or date of month. 5. Click 'Save'. The task will automatically generate new instances based on your schedule.\n\nBest regards,\nNexusFlow Support Team",
+          "channel": "web_form",
+          "sentiment": "neutral",
+          "topics": [
+            "mobile",
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "6d7d57ec-f954-45db-a296-e5c1e736449c",
+          "timestamp": "2026-03-27T22:30:07.024745",
+          "direction": "inbound",
+          "content": "Thanks for the info! Quick follow-up - can I set different times for each occurrence? Like 9 AM some weeks and 10 AM others?",
+          "channel": "whatsapp",
+          "sentiment": "positive",
+          "topics": [
+            "time_tracking"
+          ]
+        },
+        {
+          "message_id": "6215a5d8-a9f6-4ecc-95fb-9af07baef019",
+          "timestamp": "2026-03-27T22:30:07.024745",
+          "direction": "outbound",
+          "content": "Hey Bob! 👋\n\n(Continuing from web_form): \n\nStarting a timer: 1. Open any task. 2. Click the play timer icon. 3. Work on your task. 4. Click stop when done. Manual time entry: Open task → Time tab → '+ Add Time' → Enter date, duration, descript...\n\nNeed more help? 😊",
+          "channel": "whatsapp",
+          "sentiment": "positive",
+          "topics": [
+            "time_tracking"
+          ]
+        },
+        {
+          "message_id": "c3d9abbb-f210-4487-ae6b-06e76bdb76da",
+          "timestamp": "2026-03-27T22:30:07.036777",
+          "direction": "inbound",
+          "content": "Perfect, that makes sense. One last thing - if I miss a week, will the task still be created automatically or do I need to manually create it?",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "5a27aea6-87ba-4268-9f41-a1de7df4eb64",
+          "timestamp": "2026-03-27T22:30:07.036777",
+          "direction": "outbound",
+          "content": "Hi Bob!\n\nAs we discussed earlier about mobile, recurring_tasks, (Continuing from web_form): \n\nTo create a recurring task: 1. Open the task (or create a new one). 2. Click the 'Repeat' option in the task details. 3. Choose frequency: Daily, Weekly, Bi-weekly, Monthly, Yearly. 4. Select the day(...\n\nNeed more help? 😊",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "mobile",
+        "recurring_tasks",
+        "time_tracking"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T22:30:07.016747",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.016747",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.024745",
+          "score": 0.7,
+          "label": "positive"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.024745",
+          "score": 0.7,
+          "label": "positive"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.036777",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.036777",
+          "score": 0.0,
+          "label": "neutral"
+        }
+      ],
+      "current_sentiment": "neutral",
+      "sentiment_trend": "declining",
+      "created_at": "2026-03-27T22:30:07.012747",
+      "updated_at": "2026-03-27T22:30:07.036777",
+      "last_interaction": "2026-03-27T22:30:07.036777",
+      "message_count": 6,
+      "resolution_notes": ""
+    },
+    {
+      "customer_id": "carol@enterprise.com",
+      "customer_name": "Carol White",
+      "customer_email": "carol@enterprise.com",
+      "customer_phone": null,
+      "company": "Enterprise Corp",
+      "plan": "Business",
+      "conversation_id": "CONV-20260327-carol@en",
+      "status": "escalated",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "a12d5d4e-0791-4b5c-b001-96705b4dfd2d",
+          "timestamp": "2026-03-27T22:30:07.054747",
+          "direction": "inbound",
+          "content": "Hi, I noticed I was charged twice for this month's subscription. Can you please check my account? Transaction IDs are TXN-78901 and TXN-78902.",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "pricing",
+            "billing"
+          ]
+        },
+        {
+          "message_id": "ba5ff7e5-822c-459b-b58b-3f82380d1332",
+          "timestamp": "2026-03-27T22:30:07.054747",
+          "direction": "outbound",
+          "content": "Hi Carol,\n\nI understand your concern, and I'm here to help.\n\nI understand your billing concern. I'm escalating to our billing specialist who will review your account and reach out within 2 hours.\n\nIf you have transaction IDs, please reply with them.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "pricing",
+            "billing"
+          ]
+        },
+        {
+          "message_id": "d1ad5f69-06cf-4cf1-873d-3261cd453bee",
+          "timestamp": "2026-03-27T22:30:07.064750",
+          "direction": "inbound",
+          "content": "I haven't heard back about my duplicate charge issue. This is concerning because it's a significant amount for our small business budget. Can someone please look into this?",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "billing",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "92c7dde8-3ce3-4b6a-9500-09f645d7bd1d",
+          "timestamp": "2026-03-27T22:30:07.064750",
+          "direction": "outbound",
+          "content": "Dear Carol,\n\nI sincerely apologize for the frustration.\n\nI understand your billing concern. I'm escalating to our billing specialist who will review your account and reach out within 2 hours.\n\nIf you have transaction IDs, please reply with them.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "billing",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "50931ff5-fc85-44a4-88f9-87f32918d3f4",
+          "timestamp": "2026-03-27T22:30:07.076747",
+          "direction": "inbound",
+          "content": "This is the THIRD time I'm reaching out about this duplicate charge! I need this resolved IMMEDIATELY. I'm seriously considering switching to a competitor if this is how you treat Business customers. Transaction IDs: TXN-78901 and TXN-78902. REFUND NOW!",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing",
+            "time_tracking"
+          ]
+        },
+        {
+          "message_id": "f2b1bf64-7434-4f55-bc1a-c4b0ca95406f",
+          "timestamp": "2026-03-27T22:30:07.076747",
+          "direction": "outbound",
+          "content": "Hi Carol,\n\nAs we discussed earlier about pricing, billing, \n\nI understand your concern, and I'm here to help.\n\nI understand your billing concern. I'm escalating to our billing specialist who will review your account and reach out within 2 hours.\n\nIf you have transaction IDs, please reply with them.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing",
+            "time_tracking"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "pricing",
+        "billing",
+        "technical_issue",
+        "time_tracking"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T22:30:07.054747",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.054747",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.064750",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.064750",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.076747",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.076747",
+          "score": -0.3,
+          "label": "concerned"
+        }
+      ],
+      "current_sentiment": "concerned",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T22:30:07.050748",
+      "updated_at": "2026-03-27T22:30:07.076747",
+      "last_interaction": "2026-03-27T22:30:07.076747",
+      "message_count": 6,
+      "resolution_notes": "Billing dispute requires verification: duplicate charge"
+    },
+    {
+      "customer_id": "david.lee@globaltech.com",
+      "customer_name": "David Lee",
+      "customer_email": "david.lee@globaltech.com",
+      "customer_phone": null,
+      "company": "GlobalTech Solutions",
+      "plan": "Enterprise",
+      "conversation_id": "CONV-20260327-david.le",
+      "status": "escalated",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "5662ec62-fd9b-4b32-974d-2637ed46ee68",
+          "timestamp": "2026-03-27T22:30:07.097749",
+          "direction": "inbound",
+          "content": "We need help setting up SSO for our 500+ users. Our IT team updated the SAML config and now no one can log in.",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "sso"
+          ]
+        },
+        {
+          "message_id": "d2a7900e-9e17-4e6d-a4a9-8e698132a423",
+          "timestamp": "2026-03-27T22:30:07.097749",
+          "direction": "outbound",
+          "content": "Hi David,\n\nDon't worry - I'm here to help!\n\nI'm escalating this to our specialist team. They will reach out within 2 hours.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "panicked",
+          "topics": [
+            "sso"
+          ]
+        },
+        {
+          "message_id": "41e2b6ca-dff9-42ba-b9c6-3a8a3a62548a",
+          "timestamp": "2026-03-27T22:30:07.102747",
+          "direction": "inbound",
+          "content": "Following up on the SSO issue - our IT admin is available for a call if needed.",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "c1874a36-f5bc-4bad-b4a6-d88950cd9d60",
+          "timestamp": "2026-03-27T22:30:07.103750",
+          "direction": "outbound",
+          "content": "Dear David,\n\nI sincerely apologize for the frustration.\n\nI'm escalating this to our specialist team. They will reach out within 2 hours.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "sso",
+        "technical_issue"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T22:30:07.097749",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.097749",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.103750",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T22:30:07.103750",
+          "score": -0.5,
+          "label": "frustrated"
+        }
+      ],
+      "current_sentiment": "frustrated",
+      "sentiment_trend": "improving",
+      "created_at": "2026-03-27T22:30:07.090745",
+      "updated_at": "2026-03-27T22:30:07.103750",
+      "last_interaction": "2026-03-27T22:30:07.103750",
+      "message_count": 4,
+      "resolution_notes": "Enterprise with negative sentiment"
+    }
+  ]
+}

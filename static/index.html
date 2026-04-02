@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusFlow AI - Customer Success Digital FTE</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fas fa-robot"></i>
+            <span>NexusFlow AI</span>
+        </div>
+        <nav class="nav">
+            <a href="#" class="nav-item active" data-view="chat">
+                <i class="fas fa-comments"></i>
+                <span>Live Chat</span>
+            </a>
+            <a href="#" class="nav-item" data-view="dashboard">
+                <i class="fas fa-chart-line"></i>
+                <span>Dashboard</span>
+            </a>
+            <a href="#" class="nav-item" data-view="tickets">
+                <i class="fas fa-ticket-alt"></i>
+                <span>Tickets</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                <span>AI Online</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Chat View -->
+        <div class="view active" id="chat-view">
+            <div class="chat-header">
+                <div class="chat-info">
+                    <h1>Customer Support Assistant</h1>
+                    <p class="subtitle"><i class="fas fa-bolt"></i> AI-powered responses in seconds</p>
+                </div>
+                <div class="chat-actions">
+                    <button class="btn-icon" id="clearChat" title="Clear Chat">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                    <button class="btn-icon" id="toggleTheme" title="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="chat-container">
+                <div class="chat-messages" id="chatMessages">
+                    <!-- Welcome Message -->
+                    <div class="message ai-message">
+                        <div class="message-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="message-content">
+                            <div class="message-header">
+                                <span class="message-sender">NexusFlow AI</span>
+                                <span class="message-time">Now</span>
+                            </div>
+                            <div class="message-text">
+                                👋 Hello! I'm your AI customer success assistant. I can help you with:
+                                <ul>
+                                    <li>Product questions and how-to guides</li>
+                                    <li>Technical troubleshooting</li>
+                                    <li>Billing and pricing inquiries</li>
+                                    <li>Feature requests and feedback</li>
+                                </ul>
+                                <strong>How can I help you today?</strong>
+                            </div>
+                            <div class="message-meta">
+                                <span class="badge badge-success"><i class="fas fa-check"></i> AI Ready</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="quick-replies" id="quickReplies">
+                    <button class="quick-reply" data-message="How do I set up recurring tasks?">
+                        <i class="fas fa-redo"></i> Recurring Tasks
+                    </button>
+                    <button class="quick-reply" data-message="What are your pricing plans?">
+                        <i class="fas fa-dollar-sign"></i> Pricing
+                    </button>
+                    <button class="quick-reply" data-message="How do I export Gantt charts?">
+                        <i class="fas fa-file-export"></i> Export Gantt
+                    </button>
+                    <button class="quick-reply" data-message="I was charged twice, help!">
+                        <i class="fas fa-exclamation-triangle"></i> Billing Issue
+                    </button>
+                </div>
+
+                <div class="chat-input-container">
+                    <form class="chat-input-form" id="chatForm">
+                        <div class="input-group">
+                            <input 
+                                type="text" 
+                                id="messageInput" 
+                                placeholder="Type your message..." 
+                                autocomplete="off"
+                                required
+                            >
+                            <button type="submit" class="send-btn" id="sendBtn">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dashboard View -->
+        <div class="view" id="dashboard-view">
+            <div class="dashboard-header">
+                <h1>Analytics Dashboard</h1>
+                <button class="btn-primary" id="refreshDashboard">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon metric-icon-primary">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 id="totalTickets">0</h3>
+                        <p>Total Tickets</p>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon metric-icon-success">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 id="aiResolutionRate">0%</h3>
+                        <p>AI Resolution Rate</p>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon metric-icon-warning">
+                        <i class="fas fa-user-clock"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 id="escalatedTickets">0</h3>
+                        <p>Escalated to Human</p>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon metric-icon-info">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="metric-content">
+                        <h3 id="avgSentiment">-</h3>
+                        <p>Avg Sentiment</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3><i class="fas fa-chart-pie"></i> Sentiment Distribution</h3>
+                    <div class="chart-container" id="sentimentChart">
+                        <!-- Sentiment bars will be inserted here -->
+                    </div>
+                </div>
+
+                <div class="chart-card">
+                    <h3><i class="fas fa-chart-bar"></i> Category Distribution</h3>
+                    <div class="chart-container" id="categoryChart">
+                        <!-- Category bars will be inserted here -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-tickets">
+                <h3><i class="fas fa-history"></i> Recent Tickets</h3>
+                <div class="tickets-table" id="recentTickets">
+                    <!-- Tickets will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Tickets View -->
+        <div class="view" id="tickets-view">
+            <div class="tickets-header">
+                <h1>All Tickets</h1>
+                <div class="tickets-actions">
+                    <select class="filter-select" id="ticketFilter">
+                        <option value="all">All Tickets</option>
+                        <option value="resolved">Resolved</option>
+                        <option value="escalated">Escalated</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tickets-list" id="ticketsList">
+                <!-- Tickets will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Ticket Detail Modal -->
+    <div class="modal" id="ticketModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Ticket Details</h2>
+                <button class="modal-close" id="closeModal">&times;</button>
+            </div>
+            <div class="modal-body" id="ticketModalBody">
+                <!-- Ticket details will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,653 @@
+{
+  "last_updated": "2026-03-27T23:01:24.135222",
+  "conversation_count": 7,
+  "conversations": [
+    {
+      "customer_id": "alice@techcorp.com",
+      "customer_name": "alice",
+      "customer_email": "alice@techcorp.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-alice@te",
+      "status": "in_progress",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "6eedc262-03c4-4f67-8927-7571e50ecd8d",
+          "timestamp": "2026-03-27T23:00:35.390539",
+          "direction": "inbound",
+          "content": "I'm having trouble exporting my Gantt chart to PDF. It shows a loading spinner but nothing happens.",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        },
+        {
+          "message_id": "7690bfa0-ff24-43c6-a37a-b92cf9b0f61c",
+          "timestamp": "2026-03-27T23:00:35.391540",
+          "direction": "outbound",
+          "content": "Dear alice,\n\nI sincerely apologize for the frustration.\n\nRegarding export:\n\nTo export a Gantt chart to PDF: 1. Open your project. 2. Switch to Gantt view. 3. Click the 'Export' button. 4. Select 'PDF' format. 5. Click 'Export'. The export will generate within 30-60 seconds. Troubleshooting: If export hangs, try reducing visible tasks with filters. Clear browser cache. Use Chrome for best compatibility.\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        },
+        {
+          "message_id": "88c4e964-5b48-4768-bdaf-84cadd181ab2",
+          "timestamp": "2026-03-27T23:01:24.065220",
+          "direction": "inbound",
+          "content": "I'm having trouble exporting my Gantt chart to PDF. It shows a loading spinner but nothing happens.",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        },
+        {
+          "message_id": "f08914cf-c443-41bf-896a-990f021aa948",
+          "timestamp": "2026-03-27T23:01:24.065220",
+          "direction": "outbound",
+          "content": "Dear alice,\n\nI sincerely apologize for the frustration.\n\nRegarding export:\n\nTo export a Gantt chart to PDF: 1. Open your project. 2. Switch to Gantt view. 3. Click the 'Export' button. 4. Select 'PDF' format. 5. Click 'Export'. The export will generate within 30-60 seconds. Troubleshooting: If export hangs, try reducing visible tasks with filters. Clear browser cache. Use Chrome for best compatibility.\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "export",
+            "mobile",
+            "performance"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "export",
+        "mobile",
+        "performance"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.391540",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.391540",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.065220",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.065220",
+          "score": -0.5,
+          "label": "frustrated"
+        }
+      ],
+      "current_sentiment": "frustrated",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.388539",
+      "updated_at": "2026-03-27T23:01:24.065220",
+      "last_interaction": "2026-03-27T23:01:24.065220",
+      "message_count": 4,
+      "resolution_notes": ""
+    },
+    {
+      "customer_id": "bob@startup.io",
+      "customer_name": "bob",
+      "customer_email": "bob@startup.io",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-bob@star",
+      "status": "in_progress",
+      "original_channel": "whatsapp",
+      "current_channel": "whatsapp",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "540fa1ea-5fc0-4121-a3b8-e6b06fa37300",
+          "timestamp": "2026-03-27T23:00:35.399541",
+          "direction": "inbound",
+          "content": "How do I set up recurring tasks for weekly meetings?",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "e84538f8-e05b-41bc-b0a9-a0caaafb7b38",
+          "timestamp": "2026-03-27T23:00:35.399541",
+          "direction": "outbound",
+          "content": "Hi bob!\n\nTo create a recurring task: 1. Open the task (or create a new one). 2. Click the 'Repeat' option in the task details. 3. Choose frequency: Daily, Weekly, Bi-weekly, Monthly, Yearly. 4. Select the day(...\n\nNeed more help? 😊",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "9c284fd8-97d1-4c1f-82a7-8a7d6e7d245f",
+          "timestamp": "2026-03-27T23:01:24.073223",
+          "direction": "inbound",
+          "content": "How do I set up recurring tasks for weekly meetings?",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        },
+        {
+          "message_id": "d93feed8-cdcf-49cc-bb54-c1e4eeb5a72e",
+          "timestamp": "2026-03-27T23:01:24.073223",
+          "direction": "outbound",
+          "content": "Hi bob!\n\nTo create a recurring task: 1. Open the task (or create a new one). 2. Click the 'Repeat' option in the task details. 3. Choose frequency: Daily, Weekly, Bi-weekly, Monthly, Yearly. 4. Select the day(...\n\nNeed more help? 😊",
+          "channel": "whatsapp",
+          "sentiment": "neutral",
+          "topics": [
+            "recurring_tasks"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "recurring_tasks"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.399541",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.399541",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.073223",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.073223",
+          "score": 0.0,
+          "label": "neutral"
+        }
+      ],
+      "current_sentiment": "neutral",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.395539",
+      "updated_at": "2026-03-27T23:01:24.073223",
+      "last_interaction": "2026-03-27T23:01:24.073223",
+      "message_count": 4,
+      "resolution_notes": ""
+    },
+    {
+      "customer_id": "carol@enterprise.com",
+      "customer_name": "carol",
+      "customer_email": "carol@enterprise.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-carol@en",
+      "status": "escalated",
+      "original_channel": "web_form",
+      "current_channel": "web_form",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "f6b566a9-0e60-42b1-abe2-ed42c65db00f",
+          "timestamp": "2026-03-27T23:00:35.408547",
+          "direction": "inbound",
+          "content": "SSO not working after IT update. 200+ users cannot log in.",
+          "channel": "web_form",
+          "sentiment": "panicked",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "628d1c5a-c24f-448a-9cd8-bf32490335aa",
+          "timestamp": "2026-03-27T23:00:35.408547",
+          "direction": "outbound",
+          "content": "Hello carol,\n\nThank you for your inquiry.\n\nEscalating to specialist team. Update within 4 hours.\n\n\nBest regards,\nNexusFlow Support Team",
+          "channel": "web_form",
+          "sentiment": "panicked",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "a54d1ecc-247e-4fa5-b420-cc87f1dae551",
+          "timestamp": "2026-03-27T23:01:24.081219",
+          "direction": "inbound",
+          "content": "SSO not working after IT update. 200+ users cannot log in.",
+          "channel": "web_form",
+          "sentiment": "panicked",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "a27ca535-8902-4287-a0f3-bbdd89246849",
+          "timestamp": "2026-03-27T23:01:24.081219",
+          "direction": "outbound",
+          "content": "Hello carol,\n\nThank you for your inquiry.\n\nEscalating to specialist team. Update within 4 hours.\n\n\nBest regards,\nNexusFlow Support Team",
+          "channel": "web_form",
+          "sentiment": "panicked",
+          "topics": [
+            "sso",
+            "technical_issue"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "sso",
+        "technical_issue"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.408547",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.408547",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.081219",
+          "score": -0.9,
+          "label": "panicked"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.081219",
+          "score": -0.9,
+          "label": "panicked"
+        }
+      ],
+      "current_sentiment": "panicked",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.404538",
+      "updated_at": "2026-03-27T23:01:24.081219",
+      "last_interaction": "2026-03-27T23:01:24.081219",
+      "message_count": 4,
+      "resolution_notes": "Customer is panicked"
+    },
+    {
+      "customer_id": "history@test.com",
+      "customer_name": "history",
+      "customer_email": "history@test.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-history@",
+      "status": "in_progress",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "34c451c4-7604-42d4-a29a-18916ce4a440",
+          "timestamp": "2026-03-27T23:00:35.419542",
+          "direction": "inbound",
+          "content": "Initial issue for history test",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "51b34677-80d0-4e0f-afd7-a069302e9ca7",
+          "timestamp": "2026-03-27T23:00:35.419542",
+          "direction": "outbound",
+          "content": "Dear history,\n\nI sincerely apologize for the frustration.\n\nRegarding technical issue:\n\nFor billing issues: If you see duplicate charges, contact support immediately. Provide transaction IDs for faster resolution. Refunds are processed within 3-5 business days. Download invoices from Settings → Billing → Invoices. Add VAT number in Billing Settings for EU customers. Upgrade anytime - changes apply immediately. Downgrade applies at next billing cycle. Contact billing team: billing@nexusflow.com\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "ac823f87-1ad0-4f5d-b0f9-db75f748b60a",
+          "timestamp": "2026-03-27T23:01:24.093223",
+          "direction": "inbound",
+          "content": "Initial issue for history test",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "technical_issue"
+          ]
+        },
+        {
+          "message_id": "48b39783-7a3d-4639-b0e6-7167015013e9",
+          "timestamp": "2026-03-27T23:01:24.093223",
+          "direction": "outbound",
+          "content": "Dear history,\n\nI sincerely apologize for the frustration.\n\nRegarding technical issue:\n\nFor billing issues: If you see duplicate charges, contact support immediately. Provide transaction IDs for faster resolution. Refunds are processed within 3-5 business days. Download invoices from Settings → Billing → Invoices. Add VAT number in Billing Settings for EU customers. Upgrade anytime - changes apply immediately. Downgrade applies at next billing cycle. Contact billing team: billing@nexusflow.com\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "frustrated",
+          "topics": [
+            "technical_issue"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "technical_issue"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.419542",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.419542",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.093223",
+          "score": -0.5,
+          "label": "frustrated"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.093223",
+          "score": -0.5,
+          "label": "frustrated"
+        }
+      ],
+      "current_sentiment": "frustrated",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.416537",
+      "updated_at": "2026-03-27T23:01:24.093223",
+      "last_interaction": "2026-03-27T23:01:24.093223",
+      "message_count": 4,
+      "resolution_notes": ""
+    },
+    {
+      "customer_id": "escalate@test.com",
+      "customer_name": "escalate",
+      "customer_email": "escalate@test.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-escalate",
+      "status": "escalated",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "58cfd6fe-1a3c-4a87-9bff-88c2cd91d512",
+          "timestamp": "2026-03-27T23:00:35.437542",
+          "direction": "inbound",
+          "content": "Billing dispute - charged twice",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing"
+          ]
+        },
+        {
+          "message_id": "1d9f4bcd-9788-4a61-9732-697624e7efc2",
+          "timestamp": "2026-03-27T23:00:35.437542",
+          "direction": "outbound",
+          "content": "Hi escalate,\n\nI understand your concern, and I'm here to help.\n\nI understand your billing concern. I'm escalating to our billing specialist who will review your account and reach out within 2 hours.\n\nIf you have transaction IDs, please reply with them.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing"
+          ]
+        },
+        {
+          "message_id": "59732c90-4d0b-44fd-99bd-2611dc4f3cd5",
+          "timestamp": "2026-03-27T23:01:24.112221",
+          "direction": "inbound",
+          "content": "Billing dispute - charged twice",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing"
+          ]
+        },
+        {
+          "message_id": "ec33b158-fb15-4b44-b61c-ebccbb518e93",
+          "timestamp": "2026-03-27T23:01:24.112221",
+          "direction": "outbound",
+          "content": "Hi escalate,\n\nI understand your concern, and I'm here to help.\n\nI understand your billing concern. I'm escalating to our billing specialist who will review your account and reach out within 2 hours.\n\nIf you have transaction IDs, please reply with them.\n\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "concerned",
+          "topics": [
+            "billing"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "billing"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.437542",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.437542",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.112221",
+          "score": -0.3,
+          "label": "concerned"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.112221",
+          "score": -0.3,
+          "label": "concerned"
+        }
+      ],
+      "current_sentiment": "concerned",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.430541",
+      "updated_at": "2026-03-27T23:01:24.112221",
+      "last_interaction": "2026-03-27T23:01:24.112221",
+      "message_count": 4,
+      "resolution_notes": "Billing dispute requires verification: charged twice"
+    },
+    {
+      "customer_id": "legal@test.com",
+      "customer_name": "legal",
+      "customer_email": "legal@test.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-legal@te",
+      "status": "in_progress",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "7c9c238e-7f66-4c9c-8ce5-e77e9dff58a9",
+          "timestamp": "2026-03-27T23:00:35.448541",
+          "direction": "inbound",
+          "content": "GDPR data deletion request",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": [
+            "feature_request",
+            "compliance"
+          ]
+        },
+        {
+          "message_id": "57ff2c2a-d546-405c-8865-b4411aa6548e",
+          "timestamp": "2026-03-27T23:00:35.448541",
+          "direction": "outbound",
+          "content": "Hello legal,\n\nThank you for contacting NexusFlow Support.\n\nRegarding compliance:\n\nPopular Integrations: Slack (notifications in channels), Google Calendar (sync due dates), GitHub/GitLab (link commits), Salesforce (sync customer data), Zapier/Make (5000+ apps). API Access: REST API available for all plans. Rate limits vary by plan (Free: 60/min, Enterprise: custom).\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": [
+            "feature_request",
+            "compliance"
+          ]
+        },
+        {
+          "message_id": "a19122c6-72ae-4a53-9d9f-32edd16d7de2",
+          "timestamp": "2026-03-27T23:01:24.119220",
+          "direction": "inbound",
+          "content": "GDPR data deletion request",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": [
+            "feature_request",
+            "compliance"
+          ]
+        },
+        {
+          "message_id": "f5738e8c-a606-4453-b644-aa0b1be1f10c",
+          "timestamp": "2026-03-27T23:01:24.119220",
+          "direction": "outbound",
+          "content": "Hello legal,\n\nThank you for contacting NexusFlow Support.\n\nRegarding compliance:\n\nPopular Integrations: Slack (notifications in channels), Google Calendar (sync due dates), GitHub/GitLab (link commits), Salesforce (sync customer data), Zapier/Make (5000+ apps). API Access: REST API available for all plans. Rate limits vary by plan (Free: 60/min, Enterprise: custom).\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": [
+            "feature_request",
+            "compliance"
+          ]
+        }
+      ],
+      "topics_discussed": [
+        "feature_request",
+        "compliance"
+      ],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.448541",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.448541",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.119220",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.119220",
+          "score": 0.0,
+          "label": "neutral"
+        }
+      ],
+      "current_sentiment": "neutral",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.444538",
+      "updated_at": "2026-03-27T23:01:24.119220",
+      "last_interaction": "2026-03-27T23:01:24.119220",
+      "message_count": 4,
+      "resolution_notes": ""
+    },
+    {
+      "customer_id": "response@test.com",
+      "customer_name": "response",
+      "customer_email": "response@test.com",
+      "customer_phone": null,
+      "company": "Unknown",
+      "plan": "Unknown",
+      "conversation_id": "CONV-20260327-response",
+      "status": "in_progress",
+      "original_channel": "email",
+      "current_channel": "email",
+      "channel_switches": [],
+      "messages": [
+        {
+          "message_id": "8da56e1e-7ef3-4308-8da0-060b84420411",
+          "timestamp": "2026-03-27T23:00:35.460538",
+          "direction": "inbound",
+          "content": "How do I reset my password?",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": []
+        },
+        {
+          "message_id": "8984c240-5006-4d7c-b1f2-384c3e77046d",
+          "timestamp": "2026-03-27T23:00:35.460538",
+          "direction": "outbound",
+          "content": "Hello response,\n\nThank you for contacting NexusFlow Support.\n\nRegarding how to:\n\nTo create your account: Visit app.nexusflow.com, click 'Start Free Trial', enter your work email, verify, and complete onboarding. System Requirements: Web: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+. Mobile: iOS 15+, Android 10+.\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": []
+        },
+        {
+          "message_id": "a0799ae4-8530-47fc-aed2-d3dcd0043179",
+          "timestamp": "2026-03-27T23:01:24.135222",
+          "direction": "inbound",
+          "content": "How do I reset my password?",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": []
+        },
+        {
+          "message_id": "470e3d45-31af-449b-b252-0cb5c5e8ace9",
+          "timestamp": "2026-03-27T23:01:24.135222",
+          "direction": "outbound",
+          "content": "Hello response,\n\nThank you for contacting NexusFlow Support.\n\nRegarding how to:\n\nTo create your account: Visit app.nexusflow.com, click 'Start Free Trial', enter your work email, verify, and complete onboarding. System Requirements: Web: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+. Mobile: iOS 15+, Android 10+.\n\nPlease let me know if you need further assistance.\n\nBest regards,\nNexusFlow Support Team\nsupport@nexusflow.com\n\nTicket: TKT-20260327-001",
+          "channel": "email",
+          "sentiment": "neutral",
+          "topics": []
+        }
+      ],
+      "topics_discussed": [],
+      "sentiment_history": [
+        {
+          "timestamp": "2026-03-27T23:00:35.460538",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:00:35.460538",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.135222",
+          "score": 0.0,
+          "label": "neutral"
+        },
+        {
+          "timestamp": "2026-03-27T23:01:24.135222",
+          "score": 0.0,
+          "label": "neutral"
+        }
+      ],
+      "current_sentiment": "neutral",
+      "sentiment_trend": "stable",
+      "created_at": "2026-03-27T23:00:35.456538",
+      "updated_at": "2026-03-27T23:01:24.135222",
+      "last_interaction": "2026-03-27T23:01:24.135222",
+      "message_count": 4,
+      "resolution_notes": ""
+    }
+  ]
+}

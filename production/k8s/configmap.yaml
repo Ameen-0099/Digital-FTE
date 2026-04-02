@@ -1,0 +1,96 @@
+# NexusFlow Customer Success Digital FTE - Kubernetes ConfigMap
+# ===============================================================
+# Environment variables for all components
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: digital-fte-config
+  namespace: digital-fte
+  labels:
+    app: digital-fte
+    version: "1.0.0"
+data:
+  # Application Configuration
+  APP_NAME: "NexusFlow Digital FTE"
+  APP_VERSION: "1.0.0"
+  DEBUG: "false"
+  ENVIRONMENT: "production"
+  
+  # API Configuration
+  API_HOST: "0.0.0.0"
+  API_PORT: "8000"
+  CORS_ORIGINS: "*"
+  METRICS_ENABLED: "true"
+  
+  # Database Configuration
+  DATABASE_HOST: "postgres-service"
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: "nexusflow"
+  DATABASE_USER: "postgres"
+  DATABASE_PASSWORD: "changeme-in-production"
+  DATABASE_URL: "postgresql://postgres:changeme-in-production@postgres-service:5432/nexusflow"
+  DATABASE_POOL_MIN_SIZE: "5"
+  DATABASE_POOL_MAX_SIZE: "20"
+  
+  # Kafka Configuration
+  KAFKA_BOOTSTRAP_SERVERS: "kafka-service:9092"
+  KAFKA_TOPIC: "customer-support-tickets"
+  KAFKA_CONSUMER_GROUP: "digital-fte-agent"
+  KAFKA_BATCH_SIZE: "100"
+  KAFKA_POLL_TIMEOUT: "1000"
+  
+  # OpenAI Configuration
+  OPENAI_MODEL: "gpt-4-turbo-preview"
+  OPENAI_MAX_TOKENS: "2048"
+  OPENAI_TEMPERATURE: "0.7"
+  
+  # Agent Worker Configuration
+  MAX_RETRIES: "3"
+  RETRY_DELAY: "1.0"
+  WORKER_CONCURRENCY: "4"
+  
+  # Gmail Configuration (optional)
+  GMAIL_SERVICE_ACCOUNT_FILE: "/etc/secrets/gmail-service-account.json"
+  GMAIL_DELEGATED_EMAIL: "support@nexusflow.com"
+  GMAIL_PUBSUB_VALIDATION_TOKEN: ""
+  GCP_PROJECT_ID: ""
+  GMAIL_PUBSUB_TOPIC: "gmail-notifications"
+  
+  # Twilio Configuration (optional)
+  TWILIO_ACCOUNT_SID: ""
+  TWILIO_AUTH_TOKEN: ""
+  TWILIO_WHATSAPP_NUMBER: "whatsapp:+14155238886"
+  
+  # Logging Configuration
+  LOG_LEVEL: "INFO"
+  LOG_FORMAT: "json"
+  
+  # Health Check Configuration
+  HEALTH_CHECK_INTERVAL: "30"
+  HEALTH_CHECK_TIMEOUT: "10"
+  HEALTH_CHECK_RETRIES: "3"
+
+---
+# Secret for sensitive data (create with kubectl create secret)
+apiVersion: v1
+kind: Secret
+metadata:
+  name: digital-fte-secrets
+  namespace: digital-fte
+  labels:
+    app: digital-fte
+type: Opaque
+stringData:
+  # These should be created with kubectl, not stored in git
+  # kubectl create secret generic digital-fte-secrets \
+  #   --from-literal=DATABASE_PASSWORD='your-password' \
+  #   --from-literal=OPENAI_API_KEY='sk-...' \
+  #   --from-literal=TWILIO_ACCOUNT_SID='AC...' \
+  #   --from-literal=TWILIO_AUTH_TOKEN='...' \
+  #   -n digital-fte
+  DATABASE_PASSWORD: "changeme-in-production"
+  OPENAI_API_KEY: "sk-placeholder-replace-with-real-key"
+  TWILIO_ACCOUNT_SID: "AC-placeholder"
+  TWILIO_AUTH_TOKEN: "placeholder"
+  GMAIL_SERVICE_ACCOUNT: "{}"

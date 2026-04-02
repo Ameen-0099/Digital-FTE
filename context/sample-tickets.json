@@ -1,0 +1,1100 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-27T00:00:00Z",
+    "total_tickets": 55,
+    "date_range": {
+      "start": "2026-03-01",
+      "end": "2026-03-26"
+    },
+    "channels": ["email", "whatsapp", "web_form"],
+    "description": "Sample customer support tickets for NexusFlow Customer Success Digital FTE training and testing"
+  },
+  "tickets": [
+    {
+      "id": "TKT-001",
+      "channel": "email",
+      "timestamp": "2026-03-01T09:15:00Z",
+      "customer": {
+        "name": "Michael Chen",
+        "email": "m.chen@techstartup.io",
+        "company": "TechStartup Inc.",
+        "plan": "Professional",
+        "account_age_days": 145
+      },
+      "subject": "Can't export Gantt chart to PDF",
+      "message": "Hi NexusFlow team,\n\nI've been trying to export our Q2 roadmap Gantt chart to PDF for an executive presentation tomorrow, but every time I click export, it just shows a loading spinner and nothing happens.\n\nI've tried:\n- Different browsers (Chrome and Firefox)\n- Clearing cache\n- Reducing the number of visible tasks\n\nStill the same issue. This is pretty urgent - can someone help?\n\nThanks,\nMichael",
+      "sentiment": "frustrated",
+      "urgency": "high",
+      "category": "technical_issue",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 4.5
+    },
+    {
+      "id": "TKT-002",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-01T14:22:00Z",
+      "customer": {
+        "name": "Sarah Johnson",
+        "phone": "+1-555-0123",
+        "company": "Marketing Pros Agency",
+        "plan": "Business",
+        "account_age_days": 320
+      },
+      "message": "Hey! Quick question - how do I set up recurring tasks for our weekly team meetings? Can't find the option 🤔",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "how_to",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 0.5
+    },
+    {
+      "id": "TKT-003",
+      "channel": "web_form",
+      "timestamp": "2026-03-02T08:45:00Z",
+      "customer": {
+        "name": "David Park",
+        "email": "david.p@globalretail.com",
+        "company": "Global Retail Corp",
+        "plan": "Enterprise",
+        "account_age_days": 520
+      },
+      "subject": "SSO integration not working after update",
+      "message": "Our IT team updated our SAML configuration yesterday and now none of our 200+ users can log in through SSO. They get an error saying 'Identity provider not configured correctly.'\n\nThis is blocking our entire organization. We need immediate assistance. Our SSO admin is available for a call if needed.\n\nTicket priority: CRITICAL",
+      "sentiment": "very_frustrated",
+      "urgency": "critical",
+      "category": "technical_issue",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 2.0
+    },
+    {
+      "id": "TKT-004",
+      "channel": "email",
+      "timestamp": "2026-03-02T11:30:00Z",
+      "customer": {
+        "name": "Emily Rodriguez",
+        "email": "emily.r@designstudio.co",
+        "company": "Creative Design Studio",
+        "plan": "Starter",
+        "account_age_days": 12
+      },
+      "subject": "Love the product! One feature request",
+      "message": "Hello!\n\nWe just started using NexusFlow last week and I'm already obsessed! The interface is so much cleaner than Asana.\n\nOne thing I'd love to see: the ability to add custom fields to tasks. We track things like 'Client Name', 'Project Type', and 'Budget' and it would be amazing to have these as native fields.\n\nIs this on your roadmap? Thanks for building such a great tool!\n\nBest,\nEmily",
+      "sentiment": "very_positive",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-005",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-03T10:05:00Z",
+      "customer": {
+        "name": "James Wilson",
+        "phone": "+1-555-0234",
+        "company": "Wilson Consulting",
+        "plan": "Professional",
+        "account_age_days": 89
+      },
+      "message": "Hi, I was charged twice for this month's subscription. Can you check? Transaction IDs: TXN-98765 and TXN-98766",
+      "sentiment": "concerned",
+      "urgency": "high",
+      "category": "billing",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 3.0
+    },
+    {
+      "id": "TKT-006",
+      "channel": "email",
+      "timestamp": "2026-03-03T15:20:00Z",
+      "customer": {
+        "name": "Lisa Thompson",
+        "email": "l.thompson@fintech.io",
+        "company": "FinTech Solutions",
+        "plan": "Business",
+        "account_age_days": 210
+      },
+      "subject": "Need help with advanced reporting setup",
+      "message": "Hi Support Team,\n\nWe're trying to set up custom dashboards for our leadership team but I'm struggling with the calculated fields. Specifically:\n\n1. How do I create a formula that shows task completion rate by assignee?\n2. Can I filter reports by custom tags?\n3. Is there a way to schedule automatic report delivery?\n\nWould appreciate a walkthrough if possible. Happy to schedule a call.\n\nThanks,\nLisa Thompson\nVP of Operations",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "how_to",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 8.0
+    },
+    {
+      "id": "TKT-007",
+      "channel": "web_form",
+      "timestamp": "2026-03-04T09:00:00Z",
+      "customer": {
+        "name": "Robert Kim",
+        "email": "r.kim@healthtech.com",
+        "company": "HealthTech Innovations",
+        "plan": "Enterprise",
+        "account_age_days": 445
+      },
+      "subject": "Data export for compliance audit",
+      "message": "We have a SOC 2 audit coming up and need to export all audit logs and user activity data for the past 12 months.\n\nWhat's the best way to do this? The standard export seems to only give 90 days.\n\nPlease advise urgently - audit starts next week.",
+      "sentiment": "concerned",
+      "urgency": "high",
+      "category": "compliance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.5
+    },
+    {
+      "id": "TKT-008",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-04T16:45:00Z",
+      "customer": {
+        "name": "Amanda Foster",
+        "phone": "+1-555-0345",
+        "company": "Foster Media",
+        "plan": "Starter",
+        "account_age_days": 45
+      },
+      "message": "The mobile app keeps crashing when I try to attach photos to tasks. iPhone 14, iOS 17.3. Already tried reinstalling 😤",
+      "sentiment": "frustrated",
+      "urgency": "medium",
+      "category": "bug_report",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 6.0
+    },
+    {
+      "id": "TKT-009",
+      "channel": "email",
+      "timestamp": "2026-03-05T08:30:00Z",
+      "customer": {
+        "name": "Carlos Mendez",
+        "email": "carlos@ecommerceplus.com",
+        "company": "E-Commerce Plus",
+        "plan": "Professional",
+        "account_age_days": 178
+      },
+      "subject": "Integration with Shopify not syncing",
+      "message": "Hello,\n\nOur Shopify integration stopped syncing orders yesterday around 3 PM PST. New orders are not appearing in our 'Orders' project.\n\nI've tried:\n- Disconnecting and reconnecting the integration\n- Checking API permissions\n- Verifying webhook URLs\n\nNothing works. This is affecting our order fulfillment workflow.\n\nCarlos Mendez\nOperations Manager",
+      "sentiment": "frustrated",
+      "urgency": "high",
+      "category": "integration_issue",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 5.0
+    },
+    {
+      "id": "TKT-010",
+      "channel": "web_form",
+      "timestamp": "2026-03-05T13:15:00Z",
+      "customer": {
+        "name": "Jennifer Wu",
+        "email": "j.wu@consultingfirm.com",
+        "company": "Wu Consulting Group",
+        "plan": "Business",
+        "account_age_days": 267
+      },
+      "subject": "Request for training session for new team members",
+      "message": "Hi,\n\nWe have 15 new team members joining next week and would like to schedule a group training session on NexusFlow best practices.\n\nCan someone from your team do a 1-hour Zoom walkthrough? We're particularly interested in:\n- Project templates\n- Time tracking\n- Reporting features\n\nPlease let us know availability for the week of March 10th.\n\nThank you!",
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "training_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 12.0
+    },
+    {
+      "id": "TKT-011",
+      "channel": "email",
+      "timestamp": "2026-03-06T10:20:00Z",
+      "customer": {
+        "name": "Thomas Anderson",
+        "email": "t.anderson@matrixsoft.com",
+        "company": "MatrixSoft",
+        "plan": "Free",
+        "account_age_days": 5
+      },
+      "subject": "Question about upgrading to paid plan",
+      "message": "Hi there,\n\nI've been testing the free plan and really like it. Before I upgrade, I have a few questions:\n\n1. If I upgrade to Professional, will I keep all my existing projects and data?\n2. Can I downgrade later if needed?\n3. Do you offer educational discounts? I'm a student using this for my capstone project.\n\nThanks!\nTom",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "sales_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 18.0
+    },
+    {
+      "id": "TKT-012",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-06T14:55:00Z",
+      "customer": {
+        "name": "Rachel Green",
+        "phone": "+1-555-0456",
+        "company": "Green Events Co",
+        "plan": "Starter",
+        "account_age_days": 62
+      },
+      "message": "Is there a way to see who viewed a task? Like a read receipt? Need to know if my team is actually checking their assignments 👀",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "feature_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.0
+    },
+    {
+      "id": "TKT-013",
+      "channel": "web_form",
+      "timestamp": "2026-03-07T09:40:00Z",
+      "customer": {
+        "name": "Kevin O'Brien",
+        "email": "k.obrien@constructionpro.com",
+        "company": "Construction Pro LLC",
+        "plan": "Professional",
+        "account_age_days": 134
+      },
+      "subject": "Bulk task import failing",
+      "message": "Trying to import 500+ tasks from a CSV file and it keeps failing at around 60% with 'Error: Invalid date format in row 312.'\n\nI've checked row 312 multiple times and the date format looks correct (YYYY-MM-DD). I've attached the CSV file.\n\nCan someone help identify the issue?\n\nKevin O'Brien\nProject Coordinator",
+      "sentiment": "frustrated",
+      "urgency": "medium",
+      "category": "technical_issue",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 4.0
+    },
+    {
+      "id": "TKT-014",
+      "channel": "email",
+      "timestamp": "2026-03-07T15:10:00Z",
+      "customer": {
+        "name": "Priya Patel",
+        "email": "priya.p@softwaredev.in",
+        "company": "Software Dev India",
+        "plan": "Business",
+        "account_age_days": 298
+      },
+      "subject": "Timezone handling in scheduled reports",
+      "message": "Hello Support,\n\nWe have team members across US, Europe, and India. When we schedule daily digest reports, they all arrive at 9 AM PST which is midnight for our India team.\n\nIs there a way to set timezone per user for scheduled reports? Or can each user set their own delivery time?\n\nThis would really help with adoption in our global team.\n\nBest regards,\nPriya Patel\nEngineering Director",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 16.0
+    },
+    {
+      "id": "TKT-015",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-08T11:25:00Z",
+      "customer": {
+        "name": "Marcus Johnson",
+        "phone": "+1-555-0567",
+        "company": "Johnson Logistics",
+        "plan": "Professional",
+        "account_age_days": 156
+      },
+      "message": "URGENT: All my tasks disappeared from the board! Did I accidentally delete something? This has all our active shipments 😱",
+      "sentiment": "panicked",
+      "urgency": "critical",
+      "category": "data_loss",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.0
+    },
+    {
+      "id": "TKT-016",
+      "channel": "email",
+      "timestamp": "2026-03-08T16:50:00Z",
+      "customer": {
+        "name": "Sophie Martin",
+        "email": "s.martin@fashionbrand.fr",
+        "company": "Maison Martin",
+        "plan": "Starter",
+        "account_age_days": 78
+      },
+      "subject": "French language support",
+      "message": "Bonjour,\n\nEst-ce que NexusFlow sera disponible en français bientôt? Mon équipe aurait beaucoup de mal avec l'anglais.\n\nMerci,\nSophie",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-017",
+      "channel": "web_form",
+      "timestamp": "2026-03-09T08:15:00Z",
+      "customer": {
+        "name": "Daniel Lee",
+        "email": "d.lee@techcorp.com",
+        "company": "TechCorp Global",
+        "plan": "Enterprise",
+        "account_age_days": 612
+      },
+      "subject": "API rate limit increase request",
+      "message": "Hi,\n\nWe're building a custom integration that syncs NexusFlow with our internal ERP system. We're hitting the API rate limit (600 req/min) during initial data sync.\n\nCan we get this increased to 2000 req/min? We're on Enterprise plan.\n\nTechnical contact: dev-team@techcorp.com\n\nThanks,\nDaniel Lee\nCTO",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "technical_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 8.0
+    },
+    {
+      "id": "TKT-018",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-09T13:40:00Z",
+      "customer": {
+        "name": "Nicole Brown",
+        "phone": "+1-555-0678",
+        "company": "Brown & Associates",
+        "plan": "Professional",
+        "account_age_days": 201
+      },
+      "message": "How do I add someone as a guest? They only need to see one project, not the whole workspace.",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "how_to",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 0.5
+    },
+    {
+      "id": "TKT-019",
+      "channel": "email",
+      "timestamp": "2026-03-10T09:05:00Z",
+      "customer": {
+        "name": "Alex Turner",
+        "email": "alex.t@gamedev.studio",
+        "company": "Indie Game Studio",
+        "plan": "Free",
+        "account_age_days": 21
+      },
+      "subject": "Free plan limitation question",
+      "message": "Hey,\n\nI hit the 3-project limit on the free plan. If I upgrade to Starter for one month, create all my projects, then downgrade back to free - will my projects be deleted?\n\nJust trying to understand the limitations before committing.\n\nThanks!\nAlex",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "billing_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 12.0
+    },
+    {
+      "id": "TKT-020",
+      "channel": "web_form",
+      "timestamp": "2026-03-10T14:30:00Z",
+      "customer": {
+        "name": "Christina Wang",
+        "email": "c.wang@biotech.com",
+        "company": "BioTech Research",
+        "plan": "Enterprise",
+        "account_age_days": 489
+      },
+      "subject": "Security questionnaire for vendor approval",
+      "message": "Hello,\n\nOur security team requires all vendors to complete a security questionnaire before contract renewal. I've attached the document (25 questions).\n\nCan someone from your security team complete this by March 20th?\n\nThis is required for our contract renewal process.\n\nChristina Wang\nProcurement Manager",
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "compliance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 48.0
+    },
+    {
+      "id": "TKT-021",
+      "channel": "email",
+      "timestamp": "2026-03-11T10:45:00Z",
+      "customer": {
+        "name": "Ryan Mitchell",
+        "email": "r.mitchell@realestate.com",
+        "company": "Premier Real Estate",
+        "plan": "Business",
+        "account_age_days": 234
+      },
+      "subject": "Performance issues with large projects",
+      "message": "Hi Team,\n\nWe have a project with about 2,000 tasks (property listings) and the page takes 30+ seconds to load. This is making it almost unusable.\n\nIs there a recommended limit for tasks per project? Should we be splitting this into multiple projects?\n\nAny performance tips would be appreciated.\n\nRyan Mitchell\nIT Manager",
+      "sentiment": "frustrated",
+      "urgency": "medium",
+      "category": "performance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 6.0
+    },
+    {
+      "id": "TKT-022",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-11T15:20:00Z",
+      "customer": {
+        "name": "Olivia Davis",
+        "phone": "+1-555-0789",
+        "company": "Davis Design",
+        "plan": "Starter",
+        "account_age_days": 55
+      },
+      "message": "Can I connect my Google Calendar so deadlines show up there? 📅",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "integration_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 0.75
+    },
+    {
+      "id": "TKT-023",
+      "channel": "web_form",
+      "timestamp": "2026-03-12T08:50:00Z",
+      "customer": {
+        "name": "Brian Cooper",
+        "email": "b.cooper@manufacturing.com",
+        "company": "Cooper Manufacturing",
+        "plan": "Professional",
+        "account_age_days": 167
+      },
+      "subject": "Need invoice with company VAT number",
+      "message": "Hello,\n\nOur accounting department needs invoices to include our VAT number: GB123456789\n\nCan you update our billing profile and resend the last 3 invoices with the correct VAT information?\n\nCompany: Cooper Manufacturing Ltd\nAccount ID: ACC-78901\n\nThank you,\nBrian Cooper\nFinance Director",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "billing",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 4.0
+    },
+    {
+      "id": "TKT-024",
+      "channel": "email",
+      "timestamp": "2026-03-12T13:25:00Z",
+      "customer": {
+        "name": "Michelle Taylor",
+        "email": "m.taylor@nonprofit.org",
+        "company": "Hope Foundation",
+        "plan": "Starter",
+        "account_age_days": 92
+      },
+      "subject": "Nonprofit discount application",
+      "message": "Dear NexusFlow,\n\nI saw on your website that you offer 50% discounts for nonprofits. We're a registered 501(c)(3) organization.\n\nHow do I apply for this discount? Our current plan renews next month.\n\nI can provide our determination letter if needed.\n\nWith gratitude,\nMichelle Taylor\nExecutive Director",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "billing_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 20.0
+    },
+    {
+      "id": "TKT-025",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-13T09:35:00Z",
+      "customer": {
+        "name": "Jason Zhang",
+        "phone": "+1-555-0890",
+        "company": "Zhang Enterprises",
+        "plan": "Business",
+        "account_age_days": 278
+      },
+      "message": "The Slack notifications are spamming our channel! Every single task update is posting. How do I filter this?",
+      "sentiment": "annoyed",
+      "urgency": "medium",
+      "category": "integration_issue",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.5
+    },
+    {
+      "id": "TKT-026",
+      "channel": "email",
+      "timestamp": "2026-03-13T14:00:00Z",
+      "customer": {
+        "name": "Laura Hernandez",
+        "email": "l.hernandez@lawfirm.com",
+        "company": "Hernandez & Partners",
+        "plan": "Enterprise",
+        "account_age_days": 401
+      },
+      "subject": "Audit log export for legal discovery",
+      "message": "Counsel here. We're involved in litigation and need to export complete audit logs for specific projects as part of legal discovery.\n\nThis needs to be in a format admissible in court (with timestamps, user IDs, and action details).\n\nPlease have your legal/compliance team contact me urgently.\n\nLaura Hernandez, Esq.\nGeneral Counsel",
+      "sentiment": "serious",
+      "urgency": "critical",
+      "category": "compliance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 3.0
+    },
+    {
+      "id": "TKT-027",
+      "channel": "web_form",
+      "timestamp": "2026-03-14T10:15:00Z",
+      "customer": {
+        "name": "Steven Wright",
+        "email": "s.wright@consulting.com",
+        "company": "Wright Consulting",
+        "plan": "Professional",
+        "account_age_days": 123
+      },
+      "subject": "Can't assign tasks to team members",
+      "message": "When I try to assign a task to someone, their name doesn't appear in the dropdown. They are definitely members of the workspace.\n\nI've tried:\n- Refreshing the page\n- Logging out and back in\n- Different browser\n\nStill not working. Help please!\n\nSteven",
+      "sentiment": "frustrated",
+      "urgency": "high",
+      "category": "bug_report",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 2.5
+    },
+    {
+      "id": "TKT-028",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-14T16:40:00Z",
+      "customer": {
+        "name": "Angela Moore",
+        "phone": "+1-555-0901",
+        "company": "Moore Marketing",
+        "plan": "Starter",
+        "account_age_days": 34
+      },
+      "message": "Just wanted to say your support team is AMAZING! Got help within minutes yesterday. This is how customer service should be done! 🙌",
+      "sentiment": "very_positive",
+      "urgency": "none",
+      "category": "feedback",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 0.25
+    },
+    {
+      "id": "TKT-029",
+      "channel": "email",
+      "timestamp": "2026-03-15T08:00:00Z",
+      "customer": {
+        "name": "Patrick O'Sullivan",
+        "email": "p.osullivan@irishdistillers.ie",
+        "company": "O'Sullivan Distillers",
+        "plan": "Business",
+        "account_age_days": 312
+      },
+      "subject": "GDPR data deletion request",
+      "message": "Hello,\n\nUnder GDPR Article 17 (Right to Erasure), I'm requesting deletion of all personal data for a former employee: john.doe@email.com\n\nHe left our company on March 1st and we need his data removed from your systems.\n\nPlease confirm once completed.\n\nPatrick O'Sullivan\nHR Director",
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "compliance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-030",
+      "channel": "web_form",
+      "timestamp": "2026-03-15T12:30:00Z",
+      "customer": {
+        "name": "Diana Ross",
+        "email": "d.ross@musiclabel.com",
+        "company": "Ross Music Group",
+        "plan": "Professional",
+        "account_age_days": 189
+      },
+      "subject": "Feature request: Album release checklist template",
+      "message": "Hi!\n\nWe use NexusFlow to manage all our album releases. It would be SO helpful if you had a pre-built template for album release workflows.\n\nTypical tasks: mastering, artwork, distribution, PR, social media, playlist pitching, etc.\n\nWould love to see this added!\n\nDiana Ross (no relation to THE Diana Ross 😄)\nLabel Manager",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 36.0
+    },
+    {
+      "id": "TKT-031",
+      "channel": "email",
+      "timestamp": "2026-03-16T09:20:00Z",
+      "customer": {
+        "name": "George Hamilton",
+        "email": "g.hamilton@investmentbank.com",
+        "company": "Hamilton Investment Bank",
+        "plan": "Enterprise",
+        "account_age_days": 567
+      },
+      "subject": "Dedicated instance pricing inquiry",
+      "message": "Dear NexusFlow,\n\nWe're interested in a dedicated/single-tenant instance for regulatory reasons. Can you provide pricing information?\n\nRequirements:\n- Dedicated database\n- Isolated infrastructure\n- Custom SLA (99.99%)\n- Dedicated support channel\n\nEstimated users: 500\n\nPlease have your enterprise sales team reach out.\n\nGeorge Hamilton\nCTO",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "sales_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 4.0
+    },
+    {
+      "id": "TKT-032",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-16T14:55:00Z",
+      "customer": {
+        "name": "Tina Fey",
+        "phone": "+1-555-1012",
+        "company": "Comedy Writers Room",
+        "plan": "Starter",
+        "account_age_days": 67
+      },
+      "message": "Is there a dark mode? My eyes are dying during late night writing sessions 🌙👀",
+      "sentiment": "humorous",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.0
+    },
+    {
+      "id": "TKT-033",
+      "channel": "web_form",
+      "timestamp": "2026-03-17T08:45:00Z",
+      "customer": {
+        "name": "Victor Petrov",
+        "email": "v.petrov@logistics.ru",
+        "company": "Petrov Logistics",
+        "plan": "Professional",
+        "account_age_days": 145
+      },
+      "subject": "Russian language support",
+      "message": "Здравствуйте!\n\nПланируется ли поддержка русского языка в интерфейсе? Нашей команде было бы намного удобнее работать на русском.\n\nСпасибо,\nВиктор Петров",
+      "sentiment": "neutral",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-034",
+      "channel": "email",
+      "timestamp": "2026-03-17T13:10:00Z",
+      "customer": {
+        "name": "Samantha Clark",
+        "email": "s.clark@university.edu",
+        "company": "State University",
+        "plan": "Business",
+        "account_age_days": 234
+      },
+      "subject": "Student discount for research project",
+      "message": "Hello,\n\nI'm a professor leading a research project with 20 graduate students. We're interested in using NexusFlow for project coordination.\n\nDo you offer educational/research discounts? Our budget is limited but this could lead to wider adoption across the university.\n\nDr. Samantha Clark\nAssociate Professor of Computer Science",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "sales_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 28.0
+    },
+    {
+      "id": "TKT-035",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-18T10:30:00Z",
+      "customer": {
+        "name": "Derek Jeter",
+        "phone": "+1-555-1123",
+        "company": "Jeter Sports Management",
+        "plan": "Business",
+        "account_age_days": 289
+      },
+      "message": "Need to add 10 more seats to our account ASAP. What's the process?",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "billing",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 2.0
+    },
+    {
+      "id": "TKT-036",
+      "channel": "email",
+      "timestamp": "2026-03-18T15:45:00Z",
+      "customer": {
+        "name": "Natalie Portman",
+        "email": "n.portman@filmproduction.com",
+        "company": "Mountain Pictures",
+        "plan": "Professional",
+        "account_age_days": 156
+      },
+      "subject": "File storage limit reached",
+      "message": "Hi,\n\nWe've hit our storage limit (100GB) and can't upload any more script PDFs and storyboards.\n\nOptions:\n1. Upgrade to Business plan?\n2. Purchase additional storage?\n3. Delete old files (not ideal for archive purposes)\n\nWhat do you recommend for a film production team?\n\nThanks!\nNatalie",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "billing_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 8.0
+    },
+    {
+      "id": "TKT-037",
+      "channel": "web_form",
+      "timestamp": "2026-03-19T09:00:00Z",
+      "customer": {
+        "name": "William Chang",
+        "email": "w.chang@restaurantgroup.com",
+        "company": "Chang Restaurant Group",
+        "plan": "Starter",
+        "account_age_days": 78
+      },
+      "subject": "Mobile app offline mode",
+      "message": "Our restaurant managers often have poor connectivity in basements/storage areas. Is there an offline mode for the mobile app?\n\nThey need to be able to check task lists and mark items complete even without internet.\n\nWilliam Chang\nOperations Director",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 12.0
+    },
+    {
+      "id": "TKT-038",
+      "channel": "email",
+      "timestamp": "2026-03-19T14:20:00Z",
+      "customer": {
+        "name": "Isabella Ferrari",
+        "email": "i.ferrari@luxurybrands.it",
+        "company": "Ferrari Fashion House",
+        "plan": "Enterprise",
+        "account_age_days": 445
+      },
+      "subject": "Custom branding for client portal",
+      "message": "Buongiorno,\n\nWe use NexusFlow to collaborate with external design partners. Is there a way to white-label the interface with our brand colors and logo when sharing projects externally?\n\nThis would enhance the client experience significantly.\n\nIsabella Ferrari\nCreative Director",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "feature_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 36.0
+    },
+    {
+      "id": "TKT-039",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-20T11:05:00Z",
+      "customer": {
+        "name": "Chris Evans",
+        "phone": "+1-555-1234",
+        "company": "Evans Fitness",
+        "plan": "Professional",
+        "account_age_days": 167
+      },
+      "message": "Accidentally deleted an entire project! Is there a way to restore it? 😰",
+      "sentiment": "panicked",
+      "urgency": "high",
+      "category": "data_recovery",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.5
+    },
+    {
+      "id": "TKT-040",
+      "channel": "web_form",
+      "timestamp": "2026-03-20T16:30:00Z",
+      "customer": {
+        "name": "Monica Geller",
+        "email": "m.geller@culinaryschool.edu",
+        "company": "International Culinary Institute",
+        "plan": "Business",
+        "account_age_days": 201
+      },
+      "subject": "Teaching license for classroom use",
+      "message": "Hello,\n\nI teach a project management course and would like to use NexusFlow as a teaching tool for my 30 students.\n\nDo you offer educational licenses for classroom training? Students would only need access for one semester.\n\nChef Monica Geller\nInstructor",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "sales_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-041",
+      "channel": "email",
+      "timestamp": "2026-03-21T08:15:00Z",
+      "customer": {
+        "name": "Richard Branson",
+        "email": "r.branson@venturecapital.uk",
+        "company": "Virgin Ventures",
+        "plan": "Enterprise",
+        "account_age_days": 678
+      },
+      "subject": "Board meeting - usage report request",
+      "message": "Team,\n\nNeed a comprehensive usage report for our board meeting next week:\n- Active users by department\n- Project completion rates\n- Time tracking summaries\n- ROI metrics if available\n\nCan your team prepare this by March 26th?\n\nThanks,\nRichard",
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "reporting_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 48.0
+    },
+    {
+      "id": "TKT-042",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-21T13:40:00Z",
+      "customer": {
+        "name": "Taylor Swift",
+        "phone": "+1-555-1345",
+        "company": "TS Productions",
+        "plan": "Business",
+        "account_age_days": 234
+      },
+      "message": "Love the new AI features! 🎉 Quick question - can the AI suggest task dependencies automatically?",
+      "sentiment": "very_positive",
+      "urgency": "low",
+      "category": "feature_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 2.0
+    },
+    {
+      "id": "TKT-043",
+      "channel": "web_form",
+      "timestamp": "2026-03-22T09:25:00Z",
+      "customer": {
+        "name": "Elon Musk",
+        "email": "e.musk@spacetech.com",
+        "company": "SpaceTech Industries",
+        "plan": "Enterprise",
+        "account_age_days": 512
+      },
+      "subject": "Custom integration with internal tools",
+      "message": "We need to build a bidirectional sync between NexusFlow and our proprietary mission planning system.\n\nRequirements:\n- Real-time webhook events\n- Custom field mappings\n- Batch API access for historical data\n- Dedicated technical account manager\n\nLet's schedule a technical discussion.\n\nElon Musk\nCEO",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "technical_request",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 12.0
+    },
+    {
+      "id": "TKT-044",
+      "channel": "email",
+      "timestamp": "2026-03-22T14:50:00Z",
+      "customer": {
+        "name": "Oprah Winfrey",
+        "email": "o.winfrey@mediaempire.com",
+        "company": "OWN Media",
+        "plan": "Business",
+        "account_age_days": 345
+      },
+      "subject": "Content production workflow template",
+      "message": "Dear NexusFlow,\n\nWe produce multiple TV shows and podcasts simultaneously. Each has similar phases: pre-production, filming, editing, post-production, distribution.\n\nDo you have templates for media production workflows? Or can someone help us build a custom template?\n\nOprah Winfrey\nChairwoman",
+      "sentiment": "positive",
+      "urgency": "medium",
+      "category": "how_to",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 16.0
+    },
+    {
+      "id": "TKT-045",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-23T10:10:00Z",
+      "customer": {
+        "name": "Bill Gates",
+        "phone": "+1-555-1456",
+        "company": "Gates Foundation",
+        "plan": "Enterprise",
+        "account_age_days": 789
+      },
+      "message": "Our foundation tracks grants across 50 countries. Can we filter reports by geographic region?",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "feature_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 3.0
+    },
+    {
+      "id": "TKT-046",
+      "channel": "email",
+      "timestamp": "2026-03-23T15:35:00Z",
+      "customer": {
+        "name": "Jeff Bezos",
+        "email": "j.bezos@spacecorp.com",
+        "company": "Blue Origin Aerospace",
+        "plan": "Enterprise",
+        "account_age_days": 623
+      },
+      "subject": "Security review meeting request",
+      "message": "NexusFlow Security Team,\n\nWe need to schedule an annual security review meeting before our SOC 2 recertification.\n\nTopics:\n- Penetration testing results\n- Incident response procedures\n- Data encryption standards\n- Business continuity plans\n\nPlease propose dates in early April.\n\nJeff Bezos\nFounder",
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "compliance",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 6.0
+    },
+    {
+      "id": "TKT-047",
+      "channel": "web_form",
+      "timestamp": "2026-03-24T08:00:00Z",
+      "customer": {
+        "name": "Mark Zuckerberg",
+        "email": "m.zuckerberg@meta.ai",
+        "company": "Meta AI Research",
+        "plan": "Enterprise",
+        "account_age_days": 567
+      },
+      "subject": "AI model training data access",
+      "message": "Hi,\n\nWe're interested in partnering to train AI models on anonymized project management patterns from NexusFlow data.\n\nIs this something your data science team would be open to discussing?\n\nThis could improve AI features for everyone.\n\nMark Zuckerberg\nCEO",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "partnership",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 72.0
+    },
+    {
+      "id": "TKT-048",
+      "channel": "email",
+      "timestamp": "2026-03-24T12:45:00Z",
+      "customer": {
+        "name": "Warren Buffett",
+        "email": "w.buffett@berkshire.com",
+        "company": "Berkshire Hathaway",
+        "plan": "Enterprise",
+        "account_age_days": 890
+      },
+      "subject": "Multi-subsidiary account structure",
+      "message": "Team,\n\nWe manage 80+ subsidiaries and need a way to have separate workspaces under one corporate account with consolidated billing.\n\nIs this possible with your Enterprise plan?\n\nWarren Buffett\nChairman",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "sales_inquiry",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 24.0
+    },
+    {
+      "id": "TKT-049",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-25T09:20:00Z",
+      "customer": {
+        "name": "Elon Musk",
+        "phone": "+1-555-1567",
+        "company": "SpaceTech Industries",
+        "plan": "Enterprise",
+        "account_age_days": 513
+      },
+      "message": "Follow-up on the custom integration - when can we start the technical discussion? This is time-sensitive for our Q2 launch.",
+      "sentiment": "impatient",
+      "urgency": "high",
+      "category": "follow_up",
+      "resolution_status": "resolved",
+      "resolution_time_hours": 1.0
+    },
+    {
+      "id": "TKT-050",
+      "channel": "web_form",
+      "timestamp": "2026-03-25T14:00:00Z",
+      "customer": {
+        "name": "Tim Cook",
+        "email": "t.cook@apple.com",
+        "company": "Apple Inc.",
+        "plan": "Enterprise",
+        "account_age_days": 734
+      },
+      "subject": "Enterprise contract renewal negotiation",
+      "message": "NexusFlow Team,\n\nOur Enterprise contract is up for renewal in June. We'd like to discuss:\n- Volume pricing for 5,000+ seats\n- Multi-year discount\n- Custom feature development for our workflow\n- On-premise deployment option\n\nLet's schedule executive-level discussions.\n\nTim Cook\nCEO",
+      "sentiment": "neutral",
+      "urgency": "high",
+      "category": "sales_inquiry",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    },
+    {
+      "id": "TKT-051",
+      "channel": "email",
+      "timestamp": "2026-03-26T08:30:00Z",
+      "customer": {
+        "name": "Satya Nadella",
+        "email": "s.nadella@microsoft.com",
+        "company": "Microsoft Corporation",
+        "plan": "Enterprise",
+        "account_age_days": 812
+      },
+      "subject": "Strategic partnership discussion",
+      "message": "Dear NexusFlow Leadership,\n\nMicrosoft is interested in exploring a strategic partnership that could include:\n- Deep Teams integration\n- Azure marketplace listing\n- Co-selling opportunities\n- Potential investment\n\nLet's set up a call between our business development teams.\n\nSatya Nadella\nCEO",
+      "sentiment": "very_positive",
+      "urgency": "high",
+      "category": "partnership",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    },
+    {
+      "id": "TKT-052",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-26T11:15:00Z",
+      "customer": {
+        "name": "Sundar Pichai",
+        "phone": "+1-555-1678",
+        "company": "Google LLC",
+        "plan": "Enterprise",
+        "account_age_days": 645
+      },
+      "message": "Our team loves NexusFlow! Would love to discuss Google Workspace integration possibilities. Who should I connect with?",
+      "sentiment": "very_positive",
+      "urgency": "medium",
+      "category": "partnership",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    },
+    {
+      "id": "TKT-053",
+      "channel": "web_form",
+      "timestamp": "2026-03-26T14:45:00Z",
+      "customer": {
+        "name": "Jensen Huang",
+        "email": "j.huang@nvidia.com",
+        "company": "NVIDIA",
+        "plan": "Enterprise",
+        "account_age_days": 456
+      },
+      "subject": "GPU-accelerated analytics feature request",
+      "message": "Hi NexusFlow,\n\nWe'd love to discuss how NVIDIA's GPU technology could accelerate your AI features and analytics engine.\n\nPotential collaboration:\n- GPU-optimized data processing\n- Real-time dashboard rendering\n- AI model inference acceleration\n\nInterested in exploring this?\n\nJensen Huang\nCEO",
+      "sentiment": "positive",
+      "urgency": "low",
+      "category": "partnership",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    },
+    {
+      "id": "TKT-054",
+      "channel": "email",
+      "timestamp": "2026-03-26T16:20:00Z",
+      "customer": {
+        "name": "Lisa Su",
+        "email": "l.su@amd.com",
+        "company": "AMD",
+        "plan": "Business",
+        "account_age_days": 234
+      },
+      "subject": "Competitive analysis - NexusFlow vs Jira",
+      "message": "Hello,\n\nWe're currently evaluating project management tools for company-wide deployment (10,000+ users). Currently using Jira but considering a switch.\n\nCan you provide a detailed comparison of NexusFlow vs Jira, specifically for hardware development workflows?\n\nLisa Su\nCEO",
+      "sentiment": "neutral",
+      "urgency": "medium",
+      "category": "sales_inquiry",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    },
+    {
+      "id": "TKT-055",
+      "channel": "whatsapp",
+      "timestamp": "2026-03-26T18:00:00Z",
+      "customer": {
+        "name": "Marc Benioff",
+        "phone": "+1-555-1789",
+        "company": "Salesforce",
+        "plan": "Enterprise",
+        "account_age_days": 567
+      },
+      "message": "Hey! Our Salesforce + NexusFlow integration is seeing huge demand. Can we discuss making this a native, first-party integration? 🚀",
+      "sentiment": "very_positive",
+      "urgency": "high",
+      "category": "partnership",
+      "resolution_status": "pending",
+      "resolution_time_hours": null
+    }
+  ],
+  "summary_statistics": {
+    "by_channel": {
+      "email": 25,
+      "whatsapp": 15,
+      "web_form": 15
+    },
+    "by_sentiment": {
+      "very_positive": 6,
+      "positive": 7,
+      "neutral": 22,
+      "concerned": 3,
+      "frustrated": 8,
+      "very_frustrated": 1,
+      "annoyed": 1,
+      "panicked": 2,
+      "humorous": 1,
+      "impatient": 1,
+      "serious": 1,
+      "none": 2
+    },
+    "by_urgency": {
+      "none": 2,
+      "low": 17,
+      "medium": 19,
+      "high": 13,
+      "critical": 4
+    },
+    "by_category": {
+      "technical_issue": 7,
+      "how_to": 5,
+      "feature_request": 12,
+      "billing": 4,
+      "billing_inquiry": 5,
+      "sales_inquiry": 8,
+      "integration_issue": 3,
+      "integration_inquiry": 1,
+      "compliance": 6,
+      "bug_report": 2,
+      "performance": 1,
+      "training_request": 1,
+      "feature_inquiry": 4,
+      "data_loss": 1,
+      "data_recovery": 1,
+      "feedback": 1,
+      "technical_request": 2,
+      "reporting_request": 1,
+      "partnership": 5,
+      "follow_up": 1
+    },
+    "by_plan": {
+      "Free": 3,
+      "Starter": 10,
+      "Professional": 13,
+      "Business": 12,
+      "Enterprise": 17
+    },
+    "average_resolution_time_hours": 14.2
+  }
+}
